@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FM Fire Safety Solution</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#111;
+color:#fff;
+}
+
+/* HEADER */
+
+header{
+background:#b30000;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 10%;
+}
+
+.logo{
+font-size:22px;
+font-weight:700;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:20px;
+}
+
+/* HERO */
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:url("https://images.unsplash.com/photo-1581093458791-9d42e6c2f2a7?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:15px;
+}
+
+.hero p{
+margin-bottom:25px;
+}
+
+.btn{
+background:#ff3300;
+padding:12px 25px;
+border:none;
+color:#fff;
+cursor:pointer;
+border-radius:5px;
+}
+
+/* SECTIONS */
+
+section{
+padding:70px 10%;
+}
+
+.title{
+text-align:center;
+margin-bottom:40px;
+font-size:30px;
+color:#ff3300;
+}
+
+/* SERVICES */
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.card{
+background:#1c1c1c;
+padding:25px;
+border-radius:8px;
+text-align:center;
+}
+
+.card:hover{
+background:#ff3300;
+}
+
+/* WHY */
+
+.why{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+}
+
+.why div{
+background:#1c1c1c;
+padding:20px;
+border-radius:8px;
+width:200px;
+text-align:center;
+}
+
+/* CONTACT */
+
+.contact{
+max-width:500px;
+margin:auto;
+}
+
+.contact input,
+.contact textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:none;
+border-radius:5px;
+}
+
+footer{
+background:#b30000;
+text-align:center;
+padding:15px;
+margin-top:40px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:#fff;
+padding:15px;
+border-radius:50%;
+text-decoration:none;
+font-size:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">🔥 FM FIRE SAFETY</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero">
+<h1>Complete Fire Protection Services</h1>
+<p>Installation | AMC | Hydrant | Alarm | Sprinkler</p>
+<button class="btn">Get Free Site Survey</button>
+</div>
+
+<section id="services">
+
+<h2 class="title">Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Fire Alarm</h3>
+<p>Complete fire alarm installation.</p>
+</div>
+
+<div class="card">
+<h3>Fire Extinguisher</h3>
+<p>Supply and refill services.</p>
+</div>
+
+<div class="card">
+<h3>Hydrant System</h3>
+<p>Industrial hydrant setup.</p>
+</div>
+
+<div class="card">
+<h3>Sprinkler System</h3>
+<p>Automatic sprinkler solutions.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+
+<h2 class="title">Why Choose Us</h2>
+
+<div class="why">
+<div>Certified Company</div>
+<div>Expert Engineers</div>
+<div>24×7 Support</div>
+<div>Best Price</div>
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Contact Us</h2>
+
+<div class="contact">
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Your Email">
+
+<textarea rows="5" placeholder="Message"></textarea>
+
+<button class="btn">Send Message</button>
+
+</div>
+
+</section>
+
+<a href="https://wa.me/919999999999" class="whatsapp">💬</a>
+
+<footer>
+© 2026 FM Fire Safety Solution
+</footer>
+
+</body>
+</html>
